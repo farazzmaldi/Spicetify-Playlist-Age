@@ -2,6 +2,10 @@
 
 A lightweight Spicetify extension that displays an estimated playlist creation date together with its precise calendar age.
 
+## Preview
+
+![Spicetify Playlist Age Preview](preview.png)
+
 ## Example
 
 English version:
