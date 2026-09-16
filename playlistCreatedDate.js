@@ -1,6 +1,6 @@
 /**
  * Spicetify Playlist Age
- * Version: 1.0.0
+ * Version: 1.0.1
  *
  * Displays an estimated playlist creation date and its precise calendar age
  * using the oldest available playlist-item timestamp.
@@ -12,7 +12,7 @@
 (function PlaylistCreatedDate() {
     "use strict";
 
-    const VERSION = "1.0.0";
+    const VERSION = "1.0.1";
     const ELEMENT_ID = "spicetify-playlist-age";
     const GLOBAL_FLAG = "__spicetifyPlaylistAgeLoaded";
 
