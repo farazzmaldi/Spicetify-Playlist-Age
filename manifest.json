@@ -1,0 +1,18 @@
+{
+  "name": "Spicetify Playlist Age",
+  "description": "Displays an estimated playlist creation date and precise calendar age.",
+  "preview": "preview.png",
+  "main": "playlistCreatedDate.js",
+  "readme": "README.md",
+  "authors": [
+    {
+      "name": "Farazzmaldi",
+      "url": "https://github.com/farazzmaldi"
+    }
+  ],
+  "tags": [
+    "playlist",
+    "date",
+    "age"
+  ]
+}
