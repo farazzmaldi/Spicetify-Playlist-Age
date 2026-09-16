@@ -1,7 +1,7 @@
 /**
  * Spicetify Playlist Age
  * Indonesian Version
- * Version: 1.0.0
+ * Version: 1.0.1
  *
  * Menampilkan perkiraan tanggal pembuatan playlist dan usia kalender
  * berdasarkan timestamp item playlist tertua yang masih tersedia.
@@ -13,7 +13,7 @@
 (function PlaylistCreatedDate() {
     "use strict";
 
-    const VERSION = "1.0.0";
+    const VERSION = "1.0.1";
     const ELEMENT_ID = "spicetify-playlist-age";
     const GLOBAL_FLAG = "__spicetifyPlaylistAgeLoaded";
 
