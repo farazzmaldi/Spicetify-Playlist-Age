@@ -6,6 +6,8 @@ Example:
 
 ```text
 21 April 2022 (4 tahun, 4 bulan, 26 hari yang lalu)
+```
+
 ## How it works
 
 Spotify does not expose an official playlist creation date.
@@ -35,13 +37,16 @@ Because of this, the displayed date may be newer than the actual creation date i
 
 Copy `playlistCreatedDate.js` into:
 
-`~/.config/spicetify/Extensions/`
+```text
+~/.config/spicetify/Extensions/
+```
 
 Then run:
 
-`spicetify config extensions playlistCreatedDate.js`
-
-`spicetify apply`
+```bash
+spicetify config extensions playlistCreatedDate.js
+spicetify apply
+```
 
 Restart Spotify.
 
@@ -52,6 +57,18 @@ The displayed date is an estimate based on the oldest available playlist-item ti
 It is not an official Spotify playlist creation timestamp.
 
 The extension uses internal Spotify APIs exposed through Spicetify, which may change between Spotify versions.
+
+## Privacy
+
+This extension runs locally inside the Spotify desktop client.
+
+It does not:
+
+- collect personal data;
+- send playlist data to external servers;
+- use analytics;
+- use tracking;
+- store Spotify credentials.
 
 ## License
 
